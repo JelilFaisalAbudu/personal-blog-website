@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby";
 
 // markup
 const IndexPage = () => {
@@ -6,7 +7,8 @@ const IndexPage = () => {
     <main >
       <title>Home Page</title>
 
-        <h1>Hello my valued reader.</h1>
+        <h1>Welcome to my blog website!</h1>
+        <Link to="/about">About</Link>
         <p>
           I'm currently building the site. Please come back later for an exiting articles of your interest.
         </p>
@@ -18,4 +20,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default IndexPage;
