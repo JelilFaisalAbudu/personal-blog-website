@@ -25,3 +25,13 @@
 .nav-link-text {
   color: black;
 }
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
