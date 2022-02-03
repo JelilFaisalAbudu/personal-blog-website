@@ -26,8 +26,6 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
 
-  console.log(title);
-  
   return (
     <div className={container}>
       <title>{pageTitle} | {title}</title>
